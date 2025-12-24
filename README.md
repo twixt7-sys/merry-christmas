@@ -1,4 +1,4 @@
-# Christmas App 2025
+# Christmas Card Webpage
 
 A small, warm single-page Christmas card experience with ambient visuals, snow, aurora effects, and a hold-to-open gift interaction that reveals a heartfelt message and music.
 
