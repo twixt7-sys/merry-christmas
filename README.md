@@ -1,22 +1,17 @@
 # Christmas Card Webpage
 
-A small, warm single-page Christmas card experience with ambient visuals, snow, aurora effects, and a hold-to-open gift interaction that reveals a heartfelt message and music.
+A small, warm single-page Christmas card experience with ambient visuals, snow effects, and a hold-to-open gift interaction that reveals a heartfelt message and music.
+
+    Feel free to fork and write your own message! :)
 
 ## Live Preview
 
 Open `index.html` in your browser or serve the folder with a local static server.
 
-Quick preview (recommended):
-
-```powershell
-# from repo root
-python -m http.server 8000
-# then open http://localhost:8000 in your browser
-```
 
 ## Features
 - Hold-to-open gift interaction with countdown
-- Ambient snow, stars, aurora and particle effects
+- Ambient snow, stars, and particle effects
 - Soft background music with a mobile-friendly volume prompt
 - Fully responsive layout and accessible controls
 
@@ -28,16 +23,18 @@ See `screenshots/README.md` for recommended screenshot sizes, naming conventions
 
 ## Development notes
 - Source files for the card: `christmas-card/style.css`, `christmas-card/script.js`, `index.html`.
-- Music file: `christmas-card/song.mp3` (not included in the repo by default)
+- Music file: `christmas-card/song.mp3`
 
 ### Accessibility & mobile
 - The overlay handles blocked autoplay gracefully and enables users to tap to enable sound.
 - Visuals are disabled by default on older/smaller devices to preserve performance.
 
-## Contributing
-Feel free to open an issue or submit a PR. Use the screenshot issue template in `.github/ISSUE_TEMPLATE` to attach images.
 
 ---
 
-Made with care 🎄 — happy holidays!
+
+Made with care 🎄
+
+
+Happy holidays!
 
