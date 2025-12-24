@@ -7,9 +7,15 @@
   <link rel="stylesheet" href="./christmas-card/style.css">
 </head>
 <body>
-    <audio id="music" autoplay loop>
+  <audio id="music" autoplay loop>
     <source src="./christmas-card/song.mp3" type="audio/mpeg">
   </audio>
+  <div id="volumeOverlay" class="volume-overlay">
+    <div class="volume-content">
+      <div class="speaker">🔊</div>
+      <h1>volume up</h1>
+    </div>
+  </div>
   <div id="aurora"></div>
   <div id="particles"></div>
   <div id="snow"></div>
@@ -21,8 +27,13 @@
     <div class="glow-orb glow-orb-1"></div>
     <div class="glow-orb glow-orb-2"></div>
     
-    <button id="startBtn" class="start-button">
-        <span>for homie</span>
+    <button id="startBtn" class="gift-button hidden" aria-label="Hold to open gift">
+      <div class="gift-wrap">
+        <div class="ribbon horizontal"></div>
+        <div class="ribbon vertical"></div>
+        <div class="bow"></div>
+        <div class="countdown">Hold</div>
+      </div>
     </button>
 
     <div id="message" class="hidden message-box">
