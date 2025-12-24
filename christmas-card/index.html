@@ -3,18 +3,34 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Merry Christmas</title>
+  <title>You Made It Through — Merry Christmas</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+  <div id="aurora"></div>
+  <div id="particles"></div>
   <div id="snow"></div>
+  
+  <div class="stars" id="stars"></div>
+  <div class="twinkle-overlay"></div>
 
   <main class="container">
-    <button id="startBtn">press for christmas</button>
+    <div class="glow-orb glow-orb-1"></div>
+    <div class="glow-orb glow-orb-2"></div>
+    
+    <button id="startBtn" class="start-button">
+      <span>✨</span>
+      <span>Begin</span>
+      <span>✨</span>
+    </button>
 
-    <div id="message" class="hidden">
-      <p class="line"></p>
+    <div id="message" class="hidden message-box">
+      <h1 class="christmas-title">Merry Christmas</h1>
+      <p class="line message-text"></p>
+      <div class="message-footer">
+        <div class="divider"></div>
+        <p class="closing">You are never alone.</p>
+      </div>
     </div>
   </main>
 
